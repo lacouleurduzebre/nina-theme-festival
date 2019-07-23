@@ -1,0 +1,49 @@
+footer{
+  background-color: $festival-dpurple;
+  padding: 4rem 2rem;
+  > *{
+    max-width: $extra-large;
+    margin: auto;
+  }
+  &, a{
+    color: $white;
+  }
+  .blocMenu{
+    margin: 2rem 0;
+    ul{
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      list-style: none;
+    }
+    li{
+      &:after{
+        content: " - ";
+      }
+      &:last-of-type:after{
+        content: "";
+      }
+    }
+  }
+}
+
+.cookies{
+  position: fixed;
+  bottom: 0;
+  max-width: 110rem;
+  margin: auto;
+  left: 0;
+  right: 0;
+  background: $festival-pink;
+  box-shadow: 4px -4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  padding: 1rem 1rem 0 1rem;
+  font-size: 2rem;
+  &, a{
+    color: $white;
+  }
+  body.notFull &{
+    left: 30rem;
+  }
+}
