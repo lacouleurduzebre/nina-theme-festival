@@ -1,11 +1,11 @@
 @mixin fondDegrade(){
-  background: linear-gradient(145.7deg, $festival-dpurple 28.97%, $festival-pink 88.77%);
+  background: linear-gradient(145.7deg, $main-color 28.97%, $third-color 88.77%);
 }
 
 .bouton{
   display: inline-block;
   border-radius: 5rem;
-  background-color: $festival-pink;
+  background-color: $third-color;
   color: $white;
   text-decoration: none;
   font-size: 2rem;

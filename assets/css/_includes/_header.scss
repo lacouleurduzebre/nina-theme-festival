@@ -1,5 +1,5 @@
 .header_front{
-  background-color: $festival-dpurple;
+  background-color: $main-color;
   &, a{
     color: $white;
   }
@@ -59,14 +59,14 @@
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: $festival-purple;
+  background-color: $second-color;
   > li > a{
     width: 100%;
     padding: .5rem 1rem;
     font-size: 1.8rem;
     transition: background-color .2s;
     &:hover{
-      background-color: $festival-pink;
+      background-color: $third-color;
     }
   }
 }
