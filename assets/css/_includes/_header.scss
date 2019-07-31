@@ -47,9 +47,13 @@
       > ul{
         display: block;
       }
+      > a{
+        color: $third-color;
+      }
     }
     > a{
       padding: 2rem;
+      font-weight: $weight-bold;
     }
   }
 }

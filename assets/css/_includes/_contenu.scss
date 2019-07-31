@@ -1,0 +1,51 @@
+main{
+  padding: 3rem 0;
+  > div[class^="bloc"]:not(.blocTitre){
+    margin-bottom: 5rem;
+  }
+}
+
+#ariane{
+  padding: 2rem 0;
+  color: $third-color;
+  font-size: 1.4rem;
+  font-weight: $weight-bold;
+  a, span{
+    font-weight: $weight-regular;
+    color: $color-base;
+  }
+  a{
+    text-decoration: none;
+  }
+  span{
+    color: $color-base;
+  }
+}
+
+.bouton-categorie{
+  background-color: $third-color;
+  color: $white;
+  text-decoration: none;
+  padding: .5rem 1rem;
+  transition: background-color .3s;
+  border-radius: 1.5rem;
+  &:hover, &:active, &:focus{
+    background-color: $second-color;
+    text-decoration: none;
+    color: $white;
+  }
+  svg{
+    margin-right: .5rem;
+  }
+}
+
+.pagination{
+  margin: 3rem 0;
+  font-size: 1.8rem;
+  ul{
+    justify-content: center;
+  }
+  li{
+    margin: 0 1rem;
+  }
+}

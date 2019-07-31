@@ -157,7 +157,7 @@ $forms-color     : $gray-800 !default;
 // ---------------
 
 // Component: links
-$link-color            : $gray-800 !default;
+$link-color            : $third-color !default;
 $link-color-hover      : darken($link-color, 15%) !default;
 $link-decoration       : underline !default;
 $link-decoration-hover : underline !default;
@@ -173,10 +173,10 @@ $arrow-color     : $black !default;
 
 // Components: checkboxes, radios, switches
 $checkbox-color: $white !default;
-$checkbox-background: $gray-800 !default;
+$checkbox-background: $color-base !default;
 $checkbox-size: 2rem !default;
 $checkbox-border-radius: 4px !default;
-$radio-color: $gray-800 !default;
+$radio-color: $color-base !default;
 $radio-background: $white !default;
 $switch-color: $white !default;
 $switch-background: $gray-800 !default;

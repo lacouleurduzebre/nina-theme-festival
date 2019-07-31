@@ -24,11 +24,12 @@
 .switch,
 .checkbox,
 .radio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   vertical-align: text-bottom;
   outline: 0;
   cursor: pointer;
-
   & ~ label {
     cursor: pointer;
   }

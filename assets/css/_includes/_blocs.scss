@@ -1,0 +1,187 @@
+//Listes de pages
+.blocCategorie-page{
+  text-align: center;
+  margin-bottom: 3rem;
+  .blocAnnexeVignette{
+    margin-bottom: 1.5rem;
+  }
+  h3, .blocAnnexeResume{
+    text-align: left;
+  }
+  h3{
+    color: $second-color;
+    font-size: 3rem;
+    font-weight: $weight-bold;
+    margin-bottom: 1rem;
+  }
+  .bouton{
+    margin: 1rem 0;
+  }
+}
+
+//Annuaire
+.blocAnnuaire-utilisateur{
+  text-align: center;
+  p:first-of-type{
+    font-weight: $weight-bold;
+    color: $second-color;
+    font-size: 1.6rem;
+  }
+}
+
+.blocAnnuaire-utilisateur-image{
+  width: 15rem;
+  margin: auto;
+  height: 15rem;
+  background-color: $third-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  img{
+    width: 100%;
+  }
+  svg{
+    font-size: 6rem;
+    color: $white;
+  }
+}
+
+//Formulaire
+.blocFormulaire{
+  background-color: $second-color;
+  padding: 5rem;
+  &, a{
+    color: $white;
+  }
+  label{
+    font-weight: $weight-bold;
+    font-size: 1.5rem;
+    &:not(.labelCheck){
+      margin-top: 3rem;
+    }
+  }
+  input[type=text], textarea, select{
+    border-radius: 4rem;
+    font-size: 1.5rem;
+  }
+  input[type=text], select{
+    min-width: 25rem;
+  }
+  textarea{
+    width: 45rem;
+  }
+}
+
+//LEI
+.ficheLEI{
+  margin-bottom: 3rem;
+  &-commune{
+    color: $second-color;
+  }
+  &-titre{
+    color: $second-color;
+    font-size: 3rem;
+    font-weight: $weight-bold;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+  }
+  &-lien{
+    text-align: center;
+    .bouton{
+      margin: 1rem 0;
+    }
+  }
+  &-sansImage{
+    font-size: 10rem;
+  }
+}
+
+//Menu
+main .blocMenu{
+  a{
+    color: $second-color;
+  }
+}
+
+//Menu des langues
+.menuLangues{
+  list-style: none;
+  li{
+    margin: 0 1rem;
+  }
+}
+
+//Slider
+.blocSlider-slide--texte{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: $fourth-color;
+  width: 100%;
+  padding: 2rem;
+}
+
+.slick-slide{
+  position: relative;
+}
+
+  //Flèches
+.slick-prev::before, .slick-next::before{
+  color: $third-color;
+  font-size: 4rem;
+}
+
+.slick-prev{
+  left: -5rem;
+}
+
+.slick-next{
+  right: -5rem;
+}
+
+.slick-arrow{
+  padding: 0;
+  width: 4rem;
+  height: 4rem;
+  background-color: transparent;
+  font-size: 0;
+}
+
+  //Boutons
+.slick-dots{
+  bottom: -3rem;
+}
+
+.slick-dots li button::before{
+  font-size: 1.5rem;
+  color: $third-color;
+}
+
+.slick-dots li.slick-active button::before{
+  color: $third-color;
+}
+
+//Réseaux sociaux
+.blocReseauxSociaux{
+  font-size: 2.5rem;
+  a{
+    display: inline-block;
+    margin: 0 .5rem;
+  }
+}
+
+//Vignette
+.blocAnnexeVignette, .ficheLEI-image a, .ficheLEI-sansImage a{
+  height: 22rem;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img{
+    width: 100%;
+  }
+}
