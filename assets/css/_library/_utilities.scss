@@ -259,6 +259,10 @@ $i: 1000;
 
 .mw1140p {
   max-width: 1140px;
+  @include respond-to("extra-large"){
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 @while $i > 0 {

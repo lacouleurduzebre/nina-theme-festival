@@ -22,6 +22,10 @@ main{
   }
 }
 
+.infos-page{
+  margin: 2rem 0;
+}
+
 .bouton-categorie{
   background-color: $third-color;
   color: $white;
@@ -29,6 +33,7 @@ main{
   padding: .5rem 1rem;
   transition: background-color .3s;
   border-radius: 1.5rem;
+  display: inline-block;
   &:hover, &:active, &:focus{
     background-color: $second-color;
     text-decoration: none;

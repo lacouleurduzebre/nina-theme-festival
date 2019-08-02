@@ -13,6 +13,9 @@
     font-size: 3rem;
     font-weight: $weight-bold;
     margin-bottom: 1rem;
+    @include respond-to("medium"){
+      font-size: 2.5rem;
+    }
   }
   .bouton{
     margin: 1rem 0;
@@ -53,6 +56,13 @@
 .blocFormulaire{
   background-color: $second-color;
   padding: 5rem;
+  @include respond-to("extra-large"){
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+  @include respond-to("small"){
+    padding: 2rem;
+  }
   &, a{
     color: $white;
   }
@@ -68,10 +78,22 @@
     font-size: 1.5rem;
   }
   input[type=text], select{
-    min-width: 25rem;
+    @include respond-to("tiny-up"){
+      min-width: 25rem;
+    }
+    @include respond-to("tiny"){
+      width: 100%;
+    }
   }
   textarea{
     width: 45rem;
+  }
+}
+
+//Galerie
+.blocGalerie{
+  > div > div{
+    margin-bottom: 2rem;
   }
 }
 
@@ -87,6 +109,9 @@
     font-weight: $weight-bold;
     margin-bottom: 1rem;
     margin-top: 1.5rem;
+    @include respond-to("medium"){
+      font-size: 2.5rem;
+    }
   }
   &-lien{
     text-align: center;
@@ -114,6 +139,11 @@ main .blocMenu{
   }
 }
 
+//Rubrique
+.blocRubrique-page{
+  margin-bottom: 4rem;
+}
+
 //Slider
 .blocSlider-slide--texte{
   position: absolute;
@@ -136,10 +166,16 @@ main .blocMenu{
 
 .slick-prev{
   left: -5rem;
+  @media screen and (max-width: 130rem){
+    left: 2rem;
+  }
 }
 
 .slick-next{
   right: -5rem;
+  @media screen and (max-width: 130rem){
+    right: 2rem;
+  }
 }
 
 .slick-arrow{
@@ -148,6 +184,7 @@ main .blocMenu{
   height: 4rem;
   background-color: transparent;
   font-size: 0;
+  z-index: 10;
 }
 
   //Boutons

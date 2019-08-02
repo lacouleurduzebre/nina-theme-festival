@@ -15,13 +15,27 @@
   }
   .blocMenuLangues{
     margin: 0 5rem;
+    display: flex;
+    align-items: center;
     li{
       margin: 0 1rem;
+    }
+    @include respond-to("medium"){
+      margin: 2rem -1rem 2rem 0;
     }
   }
   .groupeBlocs{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    @include respond-to("medium"){
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    > div:not(.blocLogoSite){
+      @include respond-to("medium"){
+        display: none;
+      }
+    }
   }
   ul{
     display: flex;
@@ -29,55 +43,93 @@
     padding: 0;
     margin: 0;
   }
+  > div{
+    @include respond-to("medium"){
+      padding: .5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
 }
 
 //Menu
 .header_front .blocMenu{//Niveau 1
+  @include respond-to("medium"){
+    text-align: right;
+  }
   a{
     display: inline-block;
   }
+  ul{
+    @include respond-to("medium"){
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  }
   ul ul{
-    display: none;
+    @include respond-to("medium-up"){
+      display: none;
+    }
   }
   li{
     position: relative;
   }
   > div > ul > li{
-    &:hover{
-      > ul{
-        display: block;
-      }
-      > a{
-        color: $third-color;
+    @include respond-to("medium-up"){
+      &:hover{
+        > ul{
+          display: block;
+        }
+        > a{
+          color: $third-color;
+        }
       }
     }
     > a{
       padding: 2rem;
       font-weight: $weight-bold;
+      @include respond-to("medium"){
+        padding: 2rem 0;
+      }
     }
   }
 }
 
 .header_front .blocMenu > div > ul > li > ul{
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  background-color: $second-color;
+  @include respond-to("medium-up"){
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: $second-color;
+  }
   > li > a{
     width: 100%;
     padding: .5rem 1rem;
     font-size: 1.8rem;
     transition: background-color .2s;
-    &:hover{
-      background-color: $third-color;
+    @include respond-to("medium-up"){
+      &:hover{
+        background-color: $third-color;
+      }
     }
   }
 }
 
 //Burger
 #burger{
+  order: 1;
+  font-size: 2.8rem;
+  margin-top: 1rem;
   @include respond-to("medium-up"){
     display: none;
+  }
+  &.actif + div{
+    min-height: 100vh;
+    width: 100%;
+    .groupeBlocs > div{
+      display: block;
+    }
   }
 }
