@@ -1,5 +1,204 @@
 body.accueil{
-  h1, h2, h3{
+  h1, h2{
     color: $main-color;
+    font-weight: $weight-bold;
+  }
+}
+
+//Édito
+.blocTexte.edito{
+  text-align: right;
+  > div{
+    > div{
+      max-height: 60rem;
+      overflow: hidden;
+    }
+    > div:last-of-type{//Texte
+      background-image: url('../img/fond.jpg');
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      > *{
+        width: 40rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+  h2{
+    font-size: 6.5rem;
+    color: $second-color;
+    &:first-line{
+      font-size: 10rem;
+    }
+  }
+  p{
+    color: #878787;
+    svg{
+      color: #FF0000;
+    }
+  }
+  img{
+    width: 100%;
+  }
+}
+
+
+//Bouton découvrir
+.blocBouton.decouvrir{
+  margin-top: -13rem;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+//Tarifs
+.groupeBlocs.tarifs{
+  padding: 5.5rem 0 8.5rem;
+  @include fondDegrade;
+  font-size: 1.2rem;
+  > div{
+    @include centre;
+  }
+  h2{
+    color: $white;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  h3{
+    font-size: 2.5rem;
+  }
+}
+
+.groupeBlocs.tarifs .blocGrille{
+  > div > div{
+    background-color: $white;
+    color: $second-color;
+    position: relative;
+    border-radius: 4rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem 0;
+    > *:not(.bouton){
+      padding-left: 3rem;
+      padding-right: calc(40% + 2rem);
+    }
+  }
+  h3{
+    font-weight: $weight-bold;
+  }
+  .bouton{
+    background-color: $main-color;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: $weight-bold;
+    padding: 3rem;
+  }
+}
+
+//Artisans
+.groupeBlocs.artisans, .groupeBlocs.galerie-2018{
+  .blocTitre{
+    max-width: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+}
+
+.groupeBlocs.artisans{
+  background-color: $fourth-color;
+  padding: 4.5rem 0 1rem;
+  .blocBouton{
+    text-align: center;
+  }
+}
+
+.groupeBlocs.artisans .blocGrille{
+  font-weight: $weight-bold;
+  max-width: 93rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  .blocGrille-case-image{
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 3rem;
+    max-width: 15rem;
+    + div{
+      p{
+        display: flex;
+        align-items: center;
+      }
+      p:before{
+        width: 2.5rem;
+        height: 2.5rem;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        content: "";
+        margin-right: .5rem;
+      }
+      p:first-of-type:before{
+        background-image: url('../img/logo-insta.png');
+      }
+      p:last-of-type:before{
+        background-image: url('../img/logo-fb.png');
+      }
+    }
+  }
+}
+
+//Galerie
+.groupeBlocs.galerie-2018{
+  padding: 4rem 0 6.5rem;
+  background-image: url('../img/fond.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  .blocGalerie{
+    @include centre;
+    > div > div:first-of-type{
+      width: calc(100% - 2rem - 0.01px);
+    }
+    img{
+      width: 100%;
+    }
+  }
+}
+
+//Prévente
+body.accueil main .blocGroupeBlocs:last-of-type{
+  background-color: $third-color;
+}
+
+.groupeBlocs.prevente{
+  @include centre;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  h2{
+    font-size: 4.2rem;
+    text-transform: uppercase;
+    color: $white;
+  }
+  p{
+    font-size: 3.6rem;
+    color: $white;
+  }
+  .bouton{
+    background-color: $white;
+    color: $third-color;
   }
 }

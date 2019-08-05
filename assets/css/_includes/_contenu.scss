@@ -1,5 +1,6 @@
-main{
+body:not(.accueil) main{
   padding: 3rem 0;
+  @include centre;
   > div[class^="bloc"]:not(.blocTitre){
     margin-bottom: 5rem;
   }

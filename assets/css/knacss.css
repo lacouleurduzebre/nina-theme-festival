@@ -3324,14 +3324,207 @@ body.notFull .cookies {
   margin-top: 0.3rem;
 }
 
-body.accueil h1, body.accueil h2, body.accueil h3 {
+body.accueil h1, body.accueil h2 {
   color: #363553;
+  font-weight: 700;
 }
 
-main {
-  padding: 3rem 0;
+.blocTexte.edito {
+  text-align: right;
 }
-main > div[class^=bloc]:not(.blocTitre) {
+.blocTexte.edito > div > div {
+  max-height: 60rem;
+  overflow: hidden;
+}
+.blocTexte.edito > div > div:last-of-type {
+  background-image: url("../img/fond.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blocTexte.edito > div > div:last-of-type > * {
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blocTexte.edito h2 {
+  font-size: 6.5rem;
+  color: #903775;
+}
+.blocTexte.edito h2:first-line {
+  font-size: 10rem;
+}
+.blocTexte.edito p {
+  color: #878787;
+}
+.blocTexte.edito p svg {
+  color: #FF0000;
+}
+.blocTexte.edito img {
+  width: 100%;
+}
+
+.blocBouton.decouvrir {
+  margin-top: -13rem;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.groupeBlocs.tarifs {
+  padding: 5.5rem 0 8.5rem;
+  background: linear-gradient(145.7deg, #903775 28.97%, #e8458b 88.77%);
+  font-size: 1.2rem;
+}
+.groupeBlocs.tarifs > div {
+  max-width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.groupeBlocs.tarifs h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.groupeBlocs.tarifs h3 {
+  font-size: 2.5rem;
+}
+
+.groupeBlocs.tarifs .blocGrille > div > div {
+  background-color: #fff;
+  color: #903775;
+  position: relative;
+  border-radius: 4rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+.groupeBlocs.tarifs .blocGrille > div > div > *:not(.bouton) {
+  padding-left: 3rem;
+  padding-right: calc(40% + 2rem);
+}
+.groupeBlocs.tarifs .blocGrille h3 {
+  font-weight: 700;
+}
+.groupeBlocs.tarifs .blocGrille .bouton {
+  background-color: #363553;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  padding: 3rem;
+}
+
+.groupeBlocs.artisans .blocTitre, .groupeBlocs.galerie-2018 .blocTitre {
+  max-width: 65rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.groupeBlocs.artisans {
+  background-color: #dddddd;
+  padding: 4.5rem 0 1rem;
+}
+.groupeBlocs.artisans .blocBouton {
+  text-align: center;
+}
+
+.groupeBlocs.artisans .blocGrille {
+  font-weight: 700;
+  max-width: 93rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+.groupeBlocs.artisans .blocGrille .blocGrille-case-image {
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 3rem;
+  max-width: 15rem;
+}
+.groupeBlocs.artisans .blocGrille .blocGrille-case-image + div p {
+  display: flex;
+  align-items: center;
+}
+.groupeBlocs.artisans .blocGrille .blocGrille-case-image + div p:before {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: "";
+  margin-right: 0.5rem;
+}
+.groupeBlocs.artisans .blocGrille .blocGrille-case-image + div p:first-of-type:before {
+  background-image: url("../img/logo-insta.png");
+}
+.groupeBlocs.artisans .blocGrille .blocGrille-case-image + div p:last-of-type:before {
+  background-image: url("../img/logo-fb.png");
+}
+
+.groupeBlocs.galerie-2018 {
+  padding: 4rem 0 6.5rem;
+  background-image: url("../img/fond.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.groupeBlocs.galerie-2018 .blocGalerie {
+  max-width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.groupeBlocs.galerie-2018 .blocGalerie > div > div:first-of-type {
+  width: calc(100% - 2rem - 0.01px);
+}
+.groupeBlocs.galerie-2018 .blocGalerie img {
+  width: 100%;
+}
+
+body.accueil main .blocGroupeBlocs:last-of-type {
+  background-color: #e8458b;
+}
+
+.groupeBlocs.prevente {
+  max-width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.groupeBlocs.prevente h2 {
+  font-size: 4.2rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.groupeBlocs.prevente p {
+  font-size: 3.6rem;
+  color: #fff;
+}
+.groupeBlocs.prevente .bouton {
+  background-color: #fff;
+  color: #e8458b;
+}
+
+body:not(.accueil) main {
+  padding: 3rem 0;
+  max-width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body:not(.accueil) main > div[class^=bloc]:not(.blocTitre) {
   margin-bottom: 5rem;
 }
 

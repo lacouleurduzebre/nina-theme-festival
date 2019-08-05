@@ -1,5 +1,11 @@
 @mixin fondDegrade(){
-  background: linear-gradient(145.7deg, $main-color 28.97%, $third-color 88.77%);
+  background: linear-gradient(145.7deg, $second-color 28.97%, $third-color 88.77%);
+}
+
+@mixin centre{
+  max-width: $large;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bouton{
