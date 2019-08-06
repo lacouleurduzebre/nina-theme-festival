@@ -1,35 +1,52 @@
 footer{
   background-color: $main-color;
-  padding: 4rem 2rem;
+  padding: 4rem 2rem 2rem;
   > *{
-    max-width: $extra-large;
+    max-width: $large;
     margin: auto;
   }
   &, a{
     color: $white;
   }
-  .blocMenu{
-    margin: 2rem 0;
-    ul{
-      display: flex;
-      justify-content: center;
-      padding: 0;
-      list-style: none;
+}
+
+.groupeBlocs.footer{
+  overflow: auto;
+  .blocGalerie{
+    @include respond-to("medium-up"){
+      width: 50%;
+      float: left;
+      padding-right: 7.5rem;
     }
-    li{
-      &:after{
-        content: " - ";
+    @include respond-to("small"){
+      margin-bottom: 2rem;
+    }
+    > div{
+      width: 100%;
+    }
+    > div > div{
+      width: calc(100% / 2 - 2rem - 0.01px);
+      @include respond-to("medium"){
+        width: calc(100% / 4 - 2rem - 0.01px);
       }
-      &:last-of-type:after{
-        content: "";
+      @include respond-to("small"){
+        width: calc(100% / 2 - 2rem - 0.01px);
+        margin: 0 auto 2rem;
       }
     }
+  }
+  > div:not(.blocGalerie){
+    @include respond-to("medium-up"){
+      padding-left: calc(50% + 7.5rem);
+    }
+    @include respond-to("medium"){
+      text-align: center;
+    }
+  }
+  .blocReseauxSociaux{
+    margin: 2rem 0 2rem -1rem;
     a{
-      text-decoration: none;
-      &:hover{
-        color: $white;
-        text-decoration: underline;
-      }
+      margin: 0 1rem;
     }
   }
 }
