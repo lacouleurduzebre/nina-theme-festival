@@ -54,6 +54,7 @@
     width: calc(100% / 2 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-2].has-gutter-l {
     margin-right: -1rem;
@@ -63,6 +64,7 @@
     width: calc(100% / 2 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-2].has-gutter-xl {
     margin-right: -2rem;
@@ -72,6 +74,7 @@
     width: calc(100% / 2 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-3] > * {
@@ -85,6 +88,7 @@
     width: calc(100% / 3 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-3].has-gutter-l {
     margin-right: -1rem;
@@ -94,6 +98,7 @@
     width: calc(100% / 3 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-3].has-gutter-xl {
     margin-right: -2rem;
@@ -103,6 +108,7 @@
     width: calc(100% / 3 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-4] > * {
@@ -116,6 +122,7 @@
     width: calc(100% / 4 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-4].has-gutter-l {
     margin-right: -1rem;
@@ -125,6 +132,7 @@
     width: calc(100% / 4 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-4].has-gutter-xl {
     margin-right: -2rem;
@@ -134,6 +142,7 @@
     width: calc(100% / 4 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-5] > * {
@@ -147,6 +156,7 @@
     width: calc(100% / 5 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-5].has-gutter-l {
     margin-right: -1rem;
@@ -156,6 +166,7 @@
     width: calc(100% / 5 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-5].has-gutter-xl {
     margin-right: -2rem;
@@ -165,6 +176,7 @@
     width: calc(100% / 5 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-6] > * {
@@ -178,6 +190,7 @@
     width: calc(100% / 6 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-6].has-gutter-l {
     margin-right: -1rem;
@@ -187,6 +200,7 @@
     width: calc(100% / 6 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-6].has-gutter-xl {
     margin-right: -2rem;
@@ -196,6 +210,7 @@
     width: calc(100% / 6 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-7] > * {
@@ -209,6 +224,7 @@
     width: calc(100% / 7 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-7].has-gutter-l {
     margin-right: -1rem;
@@ -218,6 +234,7 @@
     width: calc(100% / 7 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-7].has-gutter-xl {
     margin-right: -2rem;
@@ -227,6 +244,7 @@
     width: calc(100% / 7 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-8] > * {
@@ -240,6 +258,7 @@
     width: calc(100% / 8 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-8].has-gutter-l {
     margin-right: -1rem;
@@ -249,6 +268,7 @@
     width: calc(100% / 8 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-8].has-gutter-xl {
     margin-right: -2rem;
@@ -258,6 +278,7 @@
     width: calc(100% / 8 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-9] > * {
@@ -271,6 +292,7 @@
     width: calc(100% / 9 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-9].has-gutter-l {
     margin-right: -1rem;
@@ -280,6 +302,7 @@
     width: calc(100% / 9 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-9].has-gutter-xl {
     margin-right: -2rem;
@@ -289,6 +312,7 @@
     width: calc(100% / 9 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-10] > * {
@@ -302,6 +326,7 @@
     width: calc(100% / 10 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-10].has-gutter-l {
     margin-right: -1rem;
@@ -311,6 +336,7 @@
     width: calc(100% / 10 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-10].has-gutter-xl {
     margin-right: -2rem;
@@ -320,6 +346,7 @@
     width: calc(100% / 10 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-11] > * {
@@ -333,6 +360,7 @@
     width: calc(100% / 11 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-11].has-gutter-l {
     margin-right: -1rem;
@@ -342,6 +370,7 @@
     width: calc(100% / 11 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-11].has-gutter-xl {
     margin-right: -2rem;
@@ -351,6 +380,7 @@
     width: calc(100% / 11 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-12] > * {
@@ -364,6 +394,7 @@
     width: calc(100% / 12 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-12].has-gutter-l {
     margin-right: -1rem;
@@ -373,6 +404,7 @@
     width: calc(100% / 12 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-12].has-gutter-xl {
     margin-right: -2rem;
@@ -382,6 +414,7 @@
     width: calc(100% / 12 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 }
 .push {

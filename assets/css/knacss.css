@@ -414,7 +414,7 @@ a {
   text-decoration: underline;
 }
 a:focus, a:hover, a:active {
-  color: #c81964;
+  color: #903775;
   text-decoration: underline;
 }
 
@@ -1739,6 +1739,7 @@ fieldset {
     width: calc(100% / 2 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-2].has-gutter-l {
     margin-right: -1rem;
@@ -1748,6 +1749,7 @@ fieldset {
     width: calc(100% / 2 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-2].has-gutter-xl {
     margin-right: -2rem;
@@ -1757,6 +1759,7 @@ fieldset {
     width: calc(100% / 2 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-3] > * {
@@ -1770,6 +1773,7 @@ fieldset {
     width: calc(100% / 3 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-3].has-gutter-l {
     margin-right: -1rem;
@@ -1779,6 +1783,7 @@ fieldset {
     width: calc(100% / 3 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-3].has-gutter-xl {
     margin-right: -2rem;
@@ -1788,6 +1793,7 @@ fieldset {
     width: calc(100% / 3 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-4] > * {
@@ -1801,6 +1807,7 @@ fieldset {
     width: calc(100% / 4 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-4].has-gutter-l {
     margin-right: -1rem;
@@ -1810,6 +1817,7 @@ fieldset {
     width: calc(100% / 4 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-4].has-gutter-xl {
     margin-right: -2rem;
@@ -1819,6 +1827,7 @@ fieldset {
     width: calc(100% / 4 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-5] > * {
@@ -1832,6 +1841,7 @@ fieldset {
     width: calc(100% / 5 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-5].has-gutter-l {
     margin-right: -1rem;
@@ -1841,6 +1851,7 @@ fieldset {
     width: calc(100% / 5 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-5].has-gutter-xl {
     margin-right: -2rem;
@@ -1850,6 +1861,7 @@ fieldset {
     width: calc(100% / 5 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-6] > * {
@@ -1863,6 +1875,7 @@ fieldset {
     width: calc(100% / 6 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-6].has-gutter-l {
     margin-right: -1rem;
@@ -1872,6 +1885,7 @@ fieldset {
     width: calc(100% / 6 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-6].has-gutter-xl {
     margin-right: -2rem;
@@ -1881,6 +1895,7 @@ fieldset {
     width: calc(100% / 6 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-7] > * {
@@ -1894,6 +1909,7 @@ fieldset {
     width: calc(100% / 7 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-7].has-gutter-l {
     margin-right: -1rem;
@@ -1903,6 +1919,7 @@ fieldset {
     width: calc(100% / 7 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-7].has-gutter-xl {
     margin-right: -2rem;
@@ -1912,6 +1929,7 @@ fieldset {
     width: calc(100% / 7 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-8] > * {
@@ -1925,6 +1943,7 @@ fieldset {
     width: calc(100% / 8 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-8].has-gutter-l {
     margin-right: -1rem;
@@ -1934,6 +1953,7 @@ fieldset {
     width: calc(100% / 8 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-8].has-gutter-xl {
     margin-right: -2rem;
@@ -1943,6 +1963,7 @@ fieldset {
     width: calc(100% / 8 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-9] > * {
@@ -1956,6 +1977,7 @@ fieldset {
     width: calc(100% / 9 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-9].has-gutter-l {
     margin-right: -1rem;
@@ -1965,6 +1987,7 @@ fieldset {
     width: calc(100% / 9 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-9].has-gutter-xl {
     margin-right: -2rem;
@@ -1974,6 +1997,7 @@ fieldset {
     width: calc(100% / 9 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-10] > * {
@@ -1987,6 +2011,7 @@ fieldset {
     width: calc(100% / 10 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-10].has-gutter-l {
     margin-right: -1rem;
@@ -1996,6 +2021,7 @@ fieldset {
     width: calc(100% / 10 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-10].has-gutter-xl {
     margin-right: -2rem;
@@ -2005,6 +2031,7 @@ fieldset {
     width: calc(100% / 10 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-11] > * {
@@ -2018,6 +2045,7 @@ fieldset {
     width: calc(100% / 11 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-11].has-gutter-l {
     margin-right: -1rem;
@@ -2027,6 +2055,7 @@ fieldset {
     width: calc(100% / 11 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-11].has-gutter-xl {
     margin-right: -2rem;
@@ -2036,6 +2065,7 @@ fieldset {
     width: calc(100% / 11 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 
   [class*=grid-12] > * {
@@ -2049,6 +2079,7 @@ fieldset {
     width: calc(100% / 12 - 1rem - 0.01px);
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   [class*=grid-12].has-gutter-l {
     margin-right: -1rem;
@@ -2058,6 +2089,7 @@ fieldset {
     width: calc(100% / 12 - 2rem - 0.01px);
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   [class*=grid-12].has-gutter-xl {
     margin-right: -2rem;
@@ -2067,6 +2099,7 @@ fieldset {
     width: calc(100% / 12 - 4rem - 0.01px);
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
   }
 }
 .push {
@@ -2452,7 +2485,7 @@ input[readonly] {
 select {
   padding-right: 4rem;
   border-radius: 0;
-  background-image: url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20style%3D%22isolation%3Aisolate%22%20viewBox%3D%220%200%2020%2020%22%20width%3D%2220%22%20height%3D%2220%22%3E%3Cpath%20d%3D%22%20M%209.96%2011.966%20L%203.523%205.589%20C%202.464%204.627%200.495%206.842%201.505%207.771%20L%201.505%207.771%20L%208.494%2014.763%20C%209.138%2015.35%2010.655%2015.369%2011.29%2014.763%20L%2011.29%2014.763%20L%2018.49%207.771%20C%2019.557%206.752%2017.364%204.68%2016.262%205.725%20L%2016.262%205.725%20L%209.96%2011.966%20Z%20%22%20fill%3D%22inherit%22/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20style%3D%22isolation%3Aisolate%22%20viewBox%3D%220%200%2020%2020%22%20width%3D%2220%22%20height%3D%2220%22%3E%3Cpath%20d%3D%22%20M%209.96%2011.966%20L%203.523%205.589%20C%202.464%204.627%200.495%206.842%201.505%207.771%20L%201.505%207.771%20L%208.494%2014.763%20C%209.138%2015.35%2010.655%2015.369%2011.29%2014.763%20L%2011.29%2014.763%20L%2018.49%207.771%20C%2019.557%206.752%2017.364%204.68%2016.262%205.725%20L%2016.262%205.725%20L%209.96%2011.966%20Z%20%22%20fill%3D%22white%22/%3E%3C/svg%3E");
   background-position: calc(100% - 2rem) center;
   background-repeat: no-repeat;
   background-size: 1.2rem;
@@ -3235,6 +3268,7 @@ button:focus {
   order: 1;
   font-size: 2.8rem;
   margin-top: 1rem;
+  cursor: pointer;
 }
 @media (min-width: 768px) {
   #burger {
@@ -3662,6 +3696,14 @@ body:not(.accueil) main > div[class^=bloc]:not(.blocTitre) {
   margin-bottom: 5rem;
 }
 
+h1 {
+  margin-bottom: 2rem;
+}
+
+.has-gutter-xl > * {
+  margin-bottom: 2rem;
+}
+
 #ariane {
   padding: 2rem 0;
   color: #e8458b;
@@ -3708,8 +3750,50 @@ body:not(.accueil) main > div[class^=bloc]:not(.blocTitre) {
 .pagination ul {
   justify-content: center;
 }
+@media (max-width: 575px) {
+  .pagination ul {
+    flex-direction: row;
+  }
+}
 .pagination li {
   margin: 0 1rem;
+}
+
+.blocCommentaires-formulaire {
+  display: none;
+}
+@media (min-width: 576px) {
+  .blocCommentaires-formulaire #form > div {
+    display: flex;
+  }
+}
+.blocCommentaires-formulaire label {
+  width: 18rem;
+}
+@media (max-width: 575px) {
+  .blocCommentaires-formulaire label {
+    display: block;
+    width: 100%;
+  }
+}
+.blocCommentaires-formulaire input, .blocCommentaires-formulaire textarea {
+  border-radius: 5rem;
+  border: 2px solid #e8458b;
+  margin-bottom: 1rem;
+  width: 50%;
+}
+@media (max-width: 575px) {
+  .blocCommentaires-formulaire input, .blocCommentaires-formulaire textarea {
+    width: 100%;
+  }
+}
+
+.typeCategorie-categorie h2 {
+  font-size: 2rem;
+}
+
+.categorie-page h2 {
+  font-size: 3rem;
 }
 
 .blocCategorie-page {
@@ -3737,8 +3821,26 @@ body:not(.accueil) main > div[class^=bloc]:not(.blocTitre) {
   margin: 1rem 0;
 }
 
+.blocAccordeon-titre {
+  background-color: #903775;
+  padding: 1rem 2rem;
+  margin-bottom: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.blocAccordeon-texte {
+  display: none;
+  padding: 2rem;
+}
+
 .blocAnnuaire-utilisateur {
   text-align: center;
+  word-break: break-all;
 }
 .blocAnnuaire-utilisateur p:first-of-type {
   font-weight: 700;
@@ -3766,34 +3868,37 @@ body:not(.accueil) main > div[class^=bloc]:not(.blocTitre) {
   color: #fff;
 }
 
-.blocFormulaire {
-  background-color: #903775;
-  padding: 5rem;
-}
 @media (max-width: 1199px) {
   .blocFormulaire {
     margin-left: -2rem;
     margin-right: -2rem;
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 991px) {
   .blocFormulaire {
     padding: 2rem;
   }
 }
 .blocFormulaire, .blocFormulaire a {
-  color: #fff;
+  color: #e8458b;
 }
 .blocFormulaire label {
-  font-weight: 700;
-  font-size: 1.5rem;
+  color: #000;
 }
 .blocFormulaire label:not(.labelCheck) {
+  font-size: 1.5rem;
+  font-weight: 700;
   margin-top: 3rem;
 }
 .blocFormulaire input[type=text], .blocFormulaire textarea, .blocFormulaire select {
   border-radius: 4rem;
   font-size: 1.5rem;
+  border: 2px solid #e8458b;
+}
+@media (max-width: 575px) {
+  .blocFormulaire input[type=text], .blocFormulaire textarea, .blocFormulaire select {
+    width: 100%;
+  }
 }
 @media (min-width: 480px) {
   .blocFormulaire input[type=text], .blocFormulaire select {
@@ -3805,8 +3910,15 @@ body:not(.accueil) main > div[class^=bloc]:not(.blocTitre) {
     width: 100%;
   }
 }
+.blocFormulaire select {
+  background-color: #e8458b;
+  color: #fff;
+}
 .blocFormulaire textarea {
   width: 45rem;
+}
+.blocFormulaire [type=checkbox] {
+  border-radius: 0;
 }
 
 .blocGalerie > div > div {
@@ -3845,21 +3957,66 @@ main .blocMenu a {
   color: #903775;
 }
 
-.menuLangues {
+.menuLangues.flex-container, .menuLangues.flex-container--row,
+.menuLangues.flex-row, .menuLangues.flex-container--column,
+.menuLangues.flex-column, .menuLangues.flex-container--row-reverse,
+.menuLangues.flex-row-reverse, .menuLangues.flex-container--column-reverse,
+.menuLangues.flex-column-reverse {
   list-style: none;
+  padding: 0;
 }
-.menuLangues li {
+@media (max-width: 575px) {
+  .menuLangues.flex-container, .menuLangues.flex-container--row,
+.menuLangues.flex-row, .menuLangues.flex-container--column,
+.menuLangues.flex-column, .menuLangues.flex-container--row-reverse,
+.menuLangues.flex-row-reverse, .menuLangues.flex-container--column-reverse,
+.menuLangues.flex-column-reverse {
+    flex-direction: row;
+  }
+}
+.menuLangues.flex-container li, .menuLangues.flex-container--row li,
+.menuLangues.flex-row li, .menuLangues.flex-container--column li,
+.menuLangues.flex-column li, .menuLangues.flex-container--row-reverse li,
+.menuLangues.flex-row-reverse li, .menuLangues.flex-container--column-reverse li,
+.menuLangues.flex-column-reverse li {
   margin: 0 1rem;
+}
+.menuLangues.flex-container a, .menuLangues.flex-container--row a,
+.menuLangues.flex-row a, .menuLangues.flex-container--column a,
+.menuLangues.flex-column a, .menuLangues.flex-container--row-reverse a,
+.menuLangues.flex-row-reverse a, .menuLangues.flex-container--column-reverse a,
+.menuLangues.flex-column-reverse a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.blocRecherche input {
+  border: 2px solid #e8458b;
+  border-radius: 5rem 0 0 5rem;
+}
+.blocRecherche button {
+  background-color: transparent;
+  color: #e8458b;
+  border-radius: 0 5rem 5rem 0;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  height: 4.7rem;
+}
+.blocRecherche h3 {
+  margin-top: 3rem;
 }
 
 .blocRubrique-page {
   margin-bottom: 4rem;
 }
 
+body:not(.accueil) main > div[class^=bloc].blocSlider {
+  margin-bottom: 10rem;
+}
+
 .blocSlider-slide--texte {
-  position: absolute;
-  left: 0;
-  bottom: 0;
   background-color: #dddddd;
   width: 100%;
   padding: 2rem;
@@ -3869,7 +4026,12 @@ main .blocMenu a {
   position: relative;
 }
 
-.slick-prev::before, .slick-next::before {
+@media (max-width: 1199px) {
+  .slick-prev, .slick-next {
+    top: calc(100% + 2rem);
+  }
+}
+.slick-prev:before, .slick-next:before {
   color: #e8458b;
   font-size: 4rem;
 }
@@ -3877,18 +4039,18 @@ main .blocMenu a {
 .slick-prev {
   left: -5rem;
 }
-@media screen and (max-width: 130rem) {
+@media (max-width: 1199px) {
   .slick-prev {
-    left: 2rem;
+    left: 0;
   }
 }
 
 .slick-next {
   right: -5rem;
 }
-@media screen and (max-width: 130rem) {
+@media (max-width: 1199px) {
   .slick-next {
-    right: 2rem;
+    right: 0;
   }
 }
 
@@ -3920,6 +4082,12 @@ main .blocMenu a {
 .blocReseauxSociaux a {
   display: inline-block;
   margin: 0 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .blocVideo iframe, .blocVideos iframe {
+    max-height: 30rem;
+  }
 }
 
 .blocAnnexeVignette, .ficheLEI-image a, .ficheLEI-sansImage a {

@@ -50,6 +50,7 @@ $iefix: 0.01px;
         width: calc(100% / #{$grid-number} - #{$size} - #{$iefix});
         margin-right: $size / 2;
         margin-left: $size / 2;
+        margin-bottom: $size / 2;
       }
     }
   }

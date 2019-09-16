@@ -6,6 +6,15 @@ body:not(.accueil) main{
   }
 }
 
+h1{
+  margin-bottom: 2rem;
+}
+
+.has-gutter-xl > *{
+  margin-bottom: 2rem;
+}
+
+//Fil d'Ariane
 #ariane{
   padding: 2rem 0;
   color: $third-color;
@@ -23,6 +32,7 @@ body:not(.accueil) main{
   }
 }
 
+//Infos sur la page
 .infos-page{
   margin: 2rem 0;
 }
@@ -45,13 +55,57 @@ body:not(.accueil) main{
   }
 }
 
+//Pagination
 .pagination{
   margin: 3rem 0;
   font-size: 1.8rem;
   ul{
     justify-content: center;
+    @include respond-to("small"){
+      flex-direction: row;
+    }
   }
   li{
     margin: 0 1rem;
+  }
+}
+
+//Commentaires
+.blocCommentaires-formulaire{
+  display: none;
+  #form > div{
+    @include respond-to("small-up"){
+      display: flex;
+    }
+  }
+  label{
+    width: 18rem;
+    @include respond-to("small"){
+      display: block;
+      width: 100%;
+    }
+  }
+  input, textarea{
+    border-radius: 5rem;
+    border: 2px solid $third-color;
+    margin-bottom: 1rem;
+    width: 50%;
+    @include respond-to("small"){
+      width: 100%;
+    }
+  }
+}
+
+//Type de catégorie
+.typeCategorie-categorie{
+  h2{
+    font-size: 2rem;
+  }
+}
+
+//Catégorie
+.categorie-page{
+  h2{
+    font-size: 3rem;
   }
 }

@@ -22,9 +22,28 @@
   }
 }
 
+//Accordéon
+.blocAccordeon-titre{
+  background-color: $second-color;
+  padding: 1rem 2rem;
+  margin-bottom: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  color: $white;
+}
+
+.blocAccordeon-texte{
+  display: none;
+  padding: 2rem;
+}
+
 //Annuaire
 .blocAnnuaire-utilisateur{
   text-align: center;
+  word-break: break-all;
   p:first-of-type{
     font-weight: $weight-bold;
     color: $second-color;
@@ -54,28 +73,31 @@
 
 //Formulaire
 .blocFormulaire{
-  background-color: $second-color;
-  padding: 5rem;
   @include respond-to("extra-large"){
     margin-left: -2rem;
     margin-right: -2rem;
   }
-  @include respond-to("small"){
+  @include respond-to("large"){
     padding: 2rem;
   }
   &, a{
-    color: $white;
+    color: $third-color;
   }
   label{
-    font-weight: $weight-bold;
-    font-size: 1.5rem;
+    color: $black;
     &:not(.labelCheck){
+      font-size: 1.5rem;
+      font-weight: $weight-bold;
       margin-top: 3rem;
     }
   }
   input[type=text], textarea, select{
     border-radius: 4rem;
     font-size: 1.5rem;
+    border: 2px solid $third-color;
+    @include respond-to("small"){
+      width: 100%;
+    }
   }
   input[type=text], select{
     @include respond-to("tiny-up"){
@@ -85,8 +107,15 @@
       width: 100%;
     }
   }
+  select{
+    background-color: $third-color;
+    color: $white;
+  }
   textarea{
     width: 45rem;
+  }
+  [type=checkbox]{
+    border-radius: 0;
   }
 }
 
@@ -132,10 +161,39 @@ main .blocMenu{
 }
 
 //Menu des langues
-.menuLangues{
+.menuLangues.flex-container{
   list-style: none;
+  padding: 0;
+  @include respond-to("small"){
+    flex-direction: row;
+  }
   li{
     margin: 0 1rem;
+  }
+  a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: $weight-bold;
+  }
+}
+
+//Recherche
+.blocRecherche{
+  input{
+    border: 2px solid $third-color;
+    border-radius: 5rem 0 0 5rem;
+  }
+  button{
+    background-color: transparent;
+    color: $third-color;
+    border-radius: 0 5rem 5rem 0;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    height: 4.7rem;
+  }
+  h3{
+    margin-top: 3rem;
   }
 }
 
@@ -145,10 +203,11 @@ main .blocMenu{
 }
 
 //Slider
+body:not(.accueil) main > div[class^="bloc"].blocSlider{
+  margin-bottom: 10rem;
+}
+
 .blocSlider-slide--texte{
-  position: absolute;
-  left: 0;
-  bottom: 0;
   background-color: $fourth-color;
   width: 100%;
   padding: 2rem;
@@ -159,22 +218,27 @@ main .blocMenu{
 }
 
   //Flèches
-.slick-prev::before, .slick-next::before{
-  color: $third-color;
-  font-size: 4rem;
+.slick-prev, .slick-next{
+  @include respond-to("extra-large"){
+    top: calc(100% + 2rem);
+  }
+  &:before{
+    color: $third-color;
+    font-size: 4rem;
+  }
 }
 
 .slick-prev{
   left: -5rem;
-  @media screen and (max-width: 130rem){
-    left: 2rem;
+  @include respond-to("extra-large"){
+    left: 0;
   }
 }
 
 .slick-next{
   right: -5rem;
-  @media screen and (max-width: 130rem){
-    right: 2rem;
+  @include respond-to("extra-large"){
+    right: 0;
   }
 }
 
@@ -207,6 +271,15 @@ main .blocMenu{
   a{
     display: inline-block;
     margin: 0 .5rem;
+  }
+}
+
+//Vidéo
+.blocVideo, .blocVideos{
+  iframe{
+    @include respond-to("medium"){
+      max-height: 30rem;
+    }
   }
 }
 
